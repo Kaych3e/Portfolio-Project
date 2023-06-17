@@ -5,8 +5,8 @@
 * [Team](#team)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [Data Population](#data population)
-* [Testing Tools](#testing tools)
+* [Data Population](#datapopulation)
+* [Testing Tools](#testingtools)
 * [Status](#status)
 
 * [Contact](#contact)
@@ -47,7 +47,6 @@ The deployment strategy for this website would be Staged Deployment. This is als
 * API Integration: Product data would be gotten through APIs which would be integrated into the website to fetch and populate the data automatically. This approach allows for real-time or scheduled updates of product information, ensuring accuracy and up-to-date content.
 
 ## Testing Tools
-List of features ready and TODOs for future development
 * Apache JMeter: A performance testing tool that simulates user behavior and measures the performance of web applications under load.
 
 ## Status

@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: rgb(249, 249, 249);
+  background-color: rgb(252, 252, 252);
 }
 
 /* Styles for the access account section */
@@ -11,6 +11,7 @@ body {
   margin: auto;
   width: 180px;
   margin-top: 50px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }
 
 /* Styles for the sign-in button */
@@ -21,13 +22,15 @@ body {
   color: rgb(44, 130, 221);
   padding: 8px;
   cursor: pointer;
-  transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .sign-button:hover{
   background-color: rgb(44, 130, 221);
   color: white;
+  box-shadow: 0 0 10px rgb(44, 130, 221);
 }
 
 /* Styles for the log-in button */
@@ -39,7 +42,6 @@ body {
   padding: 6px;
   width: 68px;
 }
-
 /* Styles for the container */
 .container {
   background-color: white;
@@ -47,6 +49,7 @@ body {
   width: 400px;
   height: 400px;
   margin-top: 0px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }
 
 /* Styles for the header */
@@ -130,15 +133,13 @@ span {
   background-color: rgb(44, 130, 221);
   border-radius: 3px;
   color: white;cursor: pointer;
-  transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-  border: 2px solid rgb(44, 130, 221);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 /* style for style to hover over the button */
 .submit-button:hover {
- background-color: white;
- color: rgb(44, 130, 221);
+  box-shadow: 0 0 10px rgb(44, 130, 221);
 }
 
 /* Styles for the logos container */
@@ -162,4 +163,25 @@ span {
 .twitter {
   height: 25px;
   cursor: pointer;
+}
+
+a:link{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(44, 130, 221);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active{
+  color: rgb(44, 130, 221);
+  background-color: transparent;
+  text-decoration: underline;
 }

@@ -118,17 +118,16 @@ h1 {
   color: white;
   border: none;
   border-radius: 5px;
-  font-size: 15px;cursor: pointer;
-  transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-  border: 2px solid rgb(44, 130, 221);
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
-/* style for style to hover over the button */
-.shop-button:hover {
- background-color: white;
- color: rgb(44, 130, 221);
+.shop-button:hover{
+  box-shadow: 0 0 10px rgb(44, 130, 221);
 }
+
 
 
 .deal-bar{
@@ -196,8 +195,19 @@ h1 {
 }
 
 .Category{
-  width: 220px;
-  height: 180px;
+  overflow: hidden;
+}
+.Category {
+  transition: scale 400ms;
+}
+.Category:hover{
+  scale: 115%;
+}
+
+
+.Category{
+  width: 210px;
+  height: 170px;
   object-fit: cover;
   margin-top: 30px;
   border-radius: 7px;
@@ -268,14 +278,14 @@ h1 {
  margin-top: 4px;
  margin-left: 5px;
  cursor: pointer;
- transition-duration: 0.4s;
- -webkit-transition-duration: 0.4s;
- border: 2px solid rgb(44, 130, 221);
+ -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
+
 .add-to-cart-button:hover{
-  background-color: white;
-  color: rgb(44, 130, 221);
+  box-shadow: 0 0 10px rgb(44, 130, 221);
 }
+
 
 .apple-product-1, .apple-product-2, .apple-product-3, .apple-product-4 {
   background-color: white;
@@ -327,14 +337,14 @@ h1 {
   margin-top: 8px;
   margin-left: 20px;
   cursor: pointer;
- transition-duration: 0.4s;
- -webkit-transition-duration: 0.4s;
- border: 2px solid rgb(44, 130, 221);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
+
 .apple-to-cart-button:hover{
-  background-color: white;
-  color: rgb(44, 130, 221);
+  box-shadow: 0 0 10px rgb(44, 130, 221);
 }
+
 
 
 .services-container {

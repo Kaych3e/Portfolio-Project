@@ -2,7 +2,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color:  rgb(245, 245, 245);
+  background-color:  rgb(252, 252, 252);
 }
 
 /* style for the create account and log in container */
@@ -11,6 +11,7 @@ body {
   margin: auto;
   width: 162px;
   margin-top: 25px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }
 
 /* style for log in button */
@@ -22,12 +23,13 @@ body {
   color: rgb(44, 130, 221);
   padding: 8px;
   cursor: pointer;
-  transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
+  box-shadow: 0 0 5px rgb(0, 0, 0, 0.1);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
-
-.log-button:hover{
+.log-button:hover {
   background-color: rgb(44, 130, 221);
+  box-shadow: 0 0 10px rgb(44, 130, 221);
   color: white;
 }
 
@@ -47,6 +49,7 @@ body {
   margin: auto;
   width: 400px;
   height: 500px;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }
 
 /* style for header */
@@ -119,16 +122,15 @@ label {
    color: white;
    margin-bottom: 15px;
    cursor: pointer;
-   transition-duration: 0.4s;
-   -webkit-transition-duration: 0.4s;
-   border: 2px solid rgb(44, 130, 221);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
 }
 
 /* style for style to hover over the button */
 .submit-button:hover {
-  background-color: white;
-  color: rgb(44, 130, 221);
+  box-shadow: 0 0 10px rgb(44, 130, 221);
 }
+
 
 /* Styles for the logos container */
 .logos-container{

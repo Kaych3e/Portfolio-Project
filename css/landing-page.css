@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.slider figure{
+  position: absolute;
+  width: 500%;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  float: left;
+  width: 20%;
+  object-fit: cover;
+}
+
+@keyframes slider{
+  0%{
+    left: 0;
+  }
+  20%{
+    left: 0;
+  }
+  25%{
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50%{
+    left: -200%;
+  }
+  70%{
+    left: -200%;
+  }
+  75%{
+    left: -300%;
+  }
+  95%{
+    left: -300%;
+  }
+  100%{
+    left: -400%;
+  }
+}
+
+.nav-container{
+  position: relative;
+  display: flex;
+  width: 100%;
+  padding-top: 20px;
+  height: 40px;
+  background-color: hsl(0, 0%, 0%, 0.2);
+}
+.logo{
+  margin-right: 440px;
+  padding-left: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: 4px;
+  color: white;
+  
+}
+.home, .contact-us, .about-us{
+  font-size: 18px;
+  margin-right: 35px;
+  color: white;
+  font-weight: normal;
+  cursor: pointer;
+}
+.twitter{
+  height: 20px;
+  cursor: pointer;
+}
+.icon-container{
+  margin-right: 40px;
+}
+
+.btn-container{
+  position: relative;
+  bottom: 15px;
+}
+
+button{
+  width: 80px;
+  padding: 5px;
+  margin: 10px;
+  border: 2px solid #eee;
+  border-radius: 50px;
+  font-size: 15px;
+  outline: none;
+  letter-spacing: 1px;
+  color: white;
+  cursor: pointer;
+  background-color: transparent;
+}
+.intro-container{
+  margin-top: 80px;
+  position: relative;
+  margin-left: 40px;
+  color: white;
+  letter-spacing: 1px;
+}
+h1{
+  margin-bottom: 5px;
+}
+.intro-container p {
+  width: 50%;
+  font-size: 13px;
+  margin-bottom: 50px;
+}
+hr{
+  width: 140px;
+  margin-bottom: 45px;
+  margin-left: 5px;
+}
+.video-conatiner{
+  width: 140px;
+  padding: 12px;
+  text-align: center;
+  border-radius: 50px;
+  letter-spacing: 2px;
+  border: 2px solid white;
+  font-weight: bold;
+  background-color: transparent;
+  cursor: pointer;
+}
+.des-container{
+  position: relative;
+  top: 20px;
+}

@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .slider figure{
@@ -9,56 +10,43 @@
   animation: 20s slider infinite;
 }
 
-.slider figure img{
-  overflow: hidden;
-} 
-
 .slider figure img {
   float: left;
   width: 20%;
   object-fit: cover;
 }
-.container{
-  height: 750px;
-  background-size: cover;
-  animation: 20s slider infinite;
-}
-@keyframes slider {
+
+@keyframes slider{
   0%{
-    left: 0%;
-    background-image: url(icons/couples-1.jpg);
+    left: 0;
   }
   20%{
-    left: 0%;
+    left: 0;
   }
   25%{
     left: -100%;
-    background-image: url(icons/couples-2.jpg);
   }
   45%{
     left: -100%;
   }
   50%{
-    background-image: url(icons/couples-3.jpg);
     left: -200%;
   }
   70%{
     left: -200%;
   }
   75%{
-    background-image: url(icons/couples-4.jpg);
     left: -300%;
   }
   95%{
     left: -300%;
   }
   100%{
-    background-image: url(icons/couples-1.jpg);
     left: -400%;
   }
 }
 
-.nav-container{
+.landing-nav-container{
   position: relative;
   display: flex;
   width: 100%;
@@ -76,14 +64,14 @@
   color: white;
   
 }
-.home, .contact-us, .about-us{
+.home-text, .contact-us-text, .about-us-text{
   font-size: 18px;
   margin-right: 35px;
   color: white;
   font-weight: normal;
   cursor: pointer;
 }
-.twitter{
+.landing-page-icon{
   height: 20px;
   cursor: pointer;
 }
@@ -96,7 +84,7 @@
   bottom: 15px;
 }
 
-button{
+.signup-btn, .login-btn{
   width: 80px;
   padding: 5px;
   margin: 10px;
@@ -140,6 +128,7 @@ hr{
   background-color: transparent;
   cursor: pointer;
 }
-h2{
-  height: 200px;
+.des-container{
+  position: relative;
+  top: 20px;
 }

@@ -1,0 +1,514 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+nav {
+  background: white;
+  height: 40px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+label.logo {
+  padding: 0 80px;
+  line-height: 40px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 100px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 40px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.l-1{
+  color: rgb(44, 130, 221);
+}
+
+.nav-icons{
+  display: inline;
+  float: right;
+  margin-right: 100px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.record-button{
+ display: flex;
+ column-gap: 20px;
+ position: absolute;
+ top: 0px;
+ margin-top: 550px;
+ margin-left: 50%;
+}
+
+.dots {
+  height: 10px;
+}
+
+img {
+  height: 20px;
+  margin-top: 10px;
+}
+
+.logo-1, .logo-2 {
+  margin-right: 50px;
+}
+
+.wallpaper-1 {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.wallpaper-container, .wallpaper-1 {
+  margin-top: 0px;
+}
+
+.wallpaper-container {
+  position: relative;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 0px;
+  padding-top: 50px;
+  padding-left: 70px;
+}
+
+h1 {
+  color: white;
+  width: 400px;
+}
+
+.page-description {
+  padding-top: 20px;
+  width: 600px;
+  word-spacing: 2px;
+  color: white;
+  font-size: 14px;
+}
+
+.shop-button-container{
+  position: absolute;
+  top: 0px;
+  padding-left: 70px;
+  padding-top: 230px;
+}
+
+.shop-button {
+  padding-left: 70px;
+  padding-right:70px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(44, 130, 221);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.shop-button:hover{
+  box-shadow: 0 0 10px rgb(44, 130, 221);
+}
+
+
+
+.deal-bar{
+  height: 35px;
+  background-color:white;
+  display: flex;
+  column-gap: 900px;
+  margin-top: 20px;
+}
+
+.deal-text, .deal-text-2{
+  color: rgb(44, 130, 221);
+  margin-top: 10px;
+  cursor: pointer;
+}
+.deal-text-2{
+  cursor: pointer;
+}
+
+.first-part{
+  display: flex;
+  column-gap: 60px;
+  width: 100%;
+}
+
+.gadget-container1, .gadget-container2, .gadget-container3, .gadget-container4 {
+  background-color: white;
+  width: 220px;
+  height: 190px;
+  margin-top: 30px;
+  border-radius: 7px;
+  margin-bottom: 30px;
+  
+}
+.gadget-container1, .Category-product-1, .Category-product-5, .recommendation-1, .apple-product-1, .service-1, .deal-type{
+  margin-left: auto;
+}
+.gadget-container4, .Category-product-4, .Category-product-8, .recommendation-6, .apple-product-4, .service-3, .view-more{
+  margin-right: auto;
+}
+
+.earpod {
+  width: 220px;
+  height: 140px;
+  margin-top: 0px;
+  object-fit: cover;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+.product-name{
+  margin-left: 13px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.product-price{
+  margin-left: 13px;
+  margin-top: 5px;
+  color: rgb(44, 130, 221);
+  font-size: 13px;
+}
+
+.Category-products{
+  display: flex;
+  column-gap: 50px;
+}
+
+.Category{
+  overflow: hidden;
+}
+.Category {
+  transition: scale 400ms;
+}
+.Category:hover{
+  scale: 115%;
+}
+
+
+.Category{
+  width: 210px;
+  height: 170px;
+  object-fit: cover;
+  margin-top: 30px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.label-1{
+  margin-top: 10px;
+  margin-left: 90px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.label-2{
+  margin-top: 10px;
+  margin-left: 80px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.recommendation-1, .recommendation-2, .recommendation-3, .recommendation-4, .recommendation-5, .recommendation-6  {
+  background-color: white;
+  width: 150px;
+  height: 180px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 7px;
+}
+
+.best-deal-gadget {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  margin-top: 0px;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.gadget-name {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 13px;
+}
+
+.gadget-price{
+  font-size: 13px;
+  color: rgb(44, 130, 221);
+  margin-left: 13px;
+  margin-top: 5px;
+}
+.price-heart-1{
+  display: flex;
+  column-gap: 60px;
+  position: relative;
+}
+
+.recommended-container, .apple-deals {
+  display: flex;
+  column-gap: 60px;
+}
+
+.add-to-cart-button{
+ padding: 4px 38px;
+ background-color: rgb(44, 130, 221);
+ color: white;
+ border: none;
+ border-radius: 3px;
+ margin-top: 4px;
+ margin-left: 5px;
+ cursor: pointer;
+ -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.add-to-cart-button:hover{
+  box-shadow: 0 0 10px rgb(44, 130, 221);
+}
+
+
+.apple-product-1, .apple-product-2, .apple-product-3, .apple-product-4 {
+  background-color: white;
+  width: 220px;
+  height: 245px;
+  margin-top: 30px;
+  border-radius: 7px;
+}
+
+.apple {
+  width: 220px;
+  height: 160px;
+  margin-top: 0px;
+  object-fit: cover;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+.apple-name{
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 15px;
+}
+.apple-price{
+  margin-left: 20px;
+  margin-top: 5px;
+  color: rgb(44, 130, 221);
+  font-size: 13px;
+  margin-right: 10px;
+}
+
+.price-heart{
+  display: flex;
+  column-gap: 100px;
+  position: relative;
+}
+.add-to-cart{
+  margin-top: 5px;
+  height: 18px;
+  bottom: 5px;
+}
+
+.apple-to-cart-button{
+  padding: 4px 60px;
+  background-color: rgb(44, 130, 221);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin-top: 8px;
+  margin-left: 20px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+
+.apple-to-cart-button:hover{
+  box-shadow: 0 0 10px rgb(44, 130, 221);
+}
+
+
+
+.services-container {
+  display: flex;
+  column-gap:270px;
+  color: rgb(44, 130, 221);
+  line-height: 50px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+}
+
+.service{
+  height: 20px;
+  margin-right: 15px;
+  position: relative;
+  top: 4px;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.footer-container{
+  display: flex;
+  column-gap: 250px;
+  padding: 15px;
+  margin-bottom: 0px;
+}
+.subscribe-container{
+  margin-left: auto;
+}
+.contact-container{
+  margin-right: auto;
+}
+
+.footer-text{
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 13px;
+}
+.heading-1, .heading-2{
+  margin-bottom: 7px;
+  width: 170px;
+  color: white;
+  font-weight: lighter;
+}
+.input-email{
+  height: 25px;
+  width: 165px;
+  margin-bottom: 15px;
+  background-color: white;
+  border: 1px solid rgb(44, 130, 221);
+  text-align: center;
+}
+.subscribe-button{
+  width: 165px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: rgb(44, 130, 221);
+  border: none;
+  color: white;
+  margin-bottom: 30px;
+  cursor: pointer;
+ transition-duration: 0.4s;
+ -webkit-transition-duration: 0.4s;
+ border: 2px solid rgb(44, 130, 221);
+}
+.subscribe-button:hover{
+  background-color: white;
+  color: rgb(44, 130, 221);
+}
+.faq-button{
+  background-color: black;
+  color: white;
+  border: 1px solid rgb(44, 130, 221);
+  padding: 2px 2px;
+}
+
+.heading-3{
+ width: 170px;
+ color: white;
+ font-weight: lighter;
+}
+
+.heading-4{
+  margin-top: 15px;
+  color: white;
+  margin-left: 10px;
+}
+.social-media-container, .version-icons{
+  display: flex;
+  column-gap: 18px;
+  margin-bottom: 23px;
+}
+.version-icons{
+  margin-left: 30px;
+}
+
+.privacy-terms-container{
+  display: flex;
+  column-gap: 30px;
+}
+.bottom-text{
+  font-size: 14px;
+  color: white;
+  font-size: 13px;
+}
+.social-media{
+  height: 20px;
+}
+
+/* Mobile version */
+
+@media (max-width: 600px) {
+  
+  .wallpaper-1 {
+    width: 100%;
+    height: auto;
+  }
+  .overlay-text {
+    padding: 20px;
+  }
+  nav {
+    height: auto;
+    width: 100%;
+  }
+  label.logo {
+    padding: 0 10px;
+    font-size: 15px;
+    
+  }
+  nav ul {
+    margin-right: 0px;
+  }
+  
+  nav ul li {
+    margin: 5px;
+  }
+  h1 {
+    color: white;
+    margin-top: 50px;
+    width: 400px;
+  }
+  .page-description {
+    width: 350px;
+    font-size: 13px;
+  }
+  .nav-icons{
+    margin-right: 5px;
+    height: 0px;
+    padding: 0rem;
+  }
+  .shop-button-container{
+    padding-left: 25px;
+    padding-top: 300px;
+  }
+  .shop-button {
+    padding-left: 40px;
+    padding-right:40px;
+    padding-top: 10px;
+  }
+  
+}

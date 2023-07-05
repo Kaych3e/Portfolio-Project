@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+  <!--header tag, contains the logo-->
+  <header>GadgetHub</header>
+
+  <!--div tag which contains both the log in and create account button-->
+  <div class="access-account">
+    <button class="sign-button">Create Account</button>
+    <button type="button" onclick="document.location='Login.html'" class="log-button">Log in</button>
+
+  </div>
+
+  <!--div tag which contains the form-->
+  <div class="container">
+    <form id="signupForm" action="my-email">
+    <h3>HELLO THERE</h3>
+    <P class="log-in">Create an account to get started</P>
+    <form action="my-email">
+      <div class="form-container">
+        <div class="name-container">
+          <label for="name">Name</label>
+          <input type="text" class="form-input-1" id="name" required>
+         </div>
+        <div class="email-container">
+           <label for="email">Email Address</label>
+           <input type="email" class="form-input-1" id="email" required>
+        </div>
+        <div class="number-container">
+           <label for="number">Phone Number</label>
+           <input type="number" class="form-input-1" id="number" required>
+         </div>
+        <div class="password-container">
+           <label for="my-password">Password</label> 
+           <input type="password" class="form-input-2" id="password" min="8" required>
+        </div>
+        <div>
+           <p>Password must contain atleast 8 characters</p>
+           <button type="submit" class="submit-button">Create Account</button>
+
+           <!--the below div tag contains the "Or" found below the button tag-->
+          <div class="or-container">
+            OR
+          </div>
+
+          <!--div tag below contains the social media icons-->
+         <div class="logos-container">
+          <div class="logo-1">
+          <img src="icons/facebook.png" class="facebook">
+         </div>
+         <div class="logo-2">
+          <img src="icons/google.png" class="google">
+         </div>
+         <div class="logo-3">
+          <img src="icons/twitter.png" class="twitter">
+         </div>
+         <div class="logo-4">
+            <img src="icons/instagram.png" class="twitter">
+          </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+  <script src="js/register.js"></script>
+</body>
+</html>

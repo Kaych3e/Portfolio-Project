@@ -1648,6 +1648,7 @@ div .phone-brand{
 
 .landing-btn-container{
   bottom: 15px;
+  position: relative;
 }
 
 .landing-signup-btn, .landing-login-btn{

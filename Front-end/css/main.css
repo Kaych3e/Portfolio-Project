@@ -1566,9 +1566,9 @@ div .phone-brand{
 }
 
 /* Styles for landing page */
-/*
+
 .slider figure{
-  position: absolute;
+  position: relative;
   width: 500%;
   animation: 20s slider infinite;
 }
@@ -1576,47 +1576,47 @@ div .phone-brand{
 .slider figure img {
   float: left;
   width: 20%;
-  object-fit: cover;
+  object-fit: contain;
 }
-*/
 
-.img-container{
-  background-image: url(icons/couples-1.jpg);
+.bgr-image{
+  background-color: red;
+  height: 700px;
+}
+
+.for-img-display {
+  height: 700px;
+  /*background-image: url("/Front-end/icons/couples-1.jpg"), url("/Front-end/icons/couples-2.jpg"), url("/Front-end/icons/couples-3.jpg"),url("/Front-end/icons/couples-4.jpg"), url("/Front-end/icons/couples-1.jpg");*/
+  background-size: cover;
+  animation: 20s slider infinite;
+  float: left;
 }
 
 @keyframes slider{
   0%{
-    left: 0;
-  }
-  20%{
+    background-image: url("/Front-end/icons/couples-1.jpg");
     left: 0;
   }
   25%{
+    background-image: url("/Front-end/icons/couples-2.jpg");
     left: -100%;
   }
-  45%{
-    left: -100%;
-  }
+  
   50%{
-    left: -200%;
-  }
-  70%{
+    background-image: url("/Front-end/icons/couples-3.jpg");
     left: -200%;
   }
   75%{
-    left: -300%;
-  }
-  95%{
+    background-image: url("/Front-end/icons/couples-4.jpg");
     left: -300%;
   }
   100%{
+    background-image: url("/Front-end/icons/couples-1.jpg");
     left: -400%;
   }
 }
 
 .landing-nav-container{
-  background-image: url(icons/couples-1.jpg);
-  position: relative;
   display: flex;
   width: 100%;
   padding-top: 20px;
@@ -1628,10 +1628,8 @@ div .phone-brand{
   padding-left: 50px;
   font-size: 25px;
   font-weight: bold;
-  position: relative;
   bottom: 4px;
-  color: white;
-  
+  color: white;  
 }
 .home-text, .contact-us-text, .about-us-text{
   font-size: 18px;
@@ -1649,11 +1647,11 @@ div .phone-brand{
 }
 
 .landing-btn-container{
-  position: relative;
   bottom: 15px;
 }
 
 .landing-signup-btn, .landing-login-btn{
+  position: relative;
   width: 80px;
   padding: 5px;
   margin: 10px;
@@ -1667,8 +1665,7 @@ div .phone-brand{
   background-color: transparent;
 }
 .intro-container{
-  margin-top: 80px;
-  position: relative;
+  margin-top: 140px;
   margin-left: 40px;
   color: white;
   letter-spacing: 1px;
@@ -1681,7 +1678,8 @@ h1{
   font-size: 13px;
   margin-bottom: 50px;
 }
-hr{
+.vertical-line-1{
+  border: 1px solid #4b4a7e;
   width: 140px;
   margin-bottom: 45px;
   margin-left: 5px;
@@ -1697,7 +1695,184 @@ hr{
   background-color: transparent;
   cursor: pointer;
 }
-.des-container{
+
+.wraps-first-part{
+  background-color: white;
+  padding-bottom: 50px;
+}
+
+.how-it-works-container{
+  margin: auto;
+  width: 900px;
+  text-align: center;
+  word-spacing: 2px;
+  margin-bottom: 100px; 
+}
+.how-it-works-header{
+  margin-bottom: 1px;
+  color: #4b4a7e;
+  padding-top: 50px;
+  
+}
+.vertical-line-2{
+  border: 1px solid #4b4a7e;
+  width: 80px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.wrap-functionality-1, .wrap-functionality-2{
+  display: flex;
+  column-gap: 50px;
+  margin: auto;
+}
+.wrap-functionality-1{
+  margin-bottom: 50px;
+}
+
+.first-box, .second-box, .third-box{
+  width: 350px;
+  height: 300px;
+  border: 1px solid rgb(144, 142, 142);
+  text-align: center;
+}
+.first-box{
+  margin-left: auto;
+}
+.third-box{
+  margin-right: auto;
+}
+.box-header{
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  color: #4b4a7e;
+}
+
+.descrip-text-1, .descrip-text-2{
+  font-size: 15px;
+  word-spacing: 1px;
+}
+
+.descrip-text-2{
+  margin-top: 20px;
+}
+.wraps-second-part{
+  height: 500px;
+  /*
+  background-color: hsl(0, 0%, 0%, 0.2);
+  background: linear-gradient(to left, rgba(225, 122, 89,1), rgba(225, 122, 89, 0));
+  */
+}
+
+.about-us-image{
+  height: 500px;
+  width: 100%;
   position: relative;
-  top: 20px;
+  object-fit: cover;
+}
+
+.about-us-container{
+  word-spacing: 2px;
+  position: relative;
+  bottom: 504px;
+  height: 500px;
+  width: 100%;
+  background: linear-gradient(to right, hsl(9, 0%, 0%, 0.9), rgba(225, 122, 89, 0));
+}
+.about-us-header{
+  margin-bottom: 3px;
+  font-size: 25px;
+  padding-top: 50px;
+  padding-left: 100px;
+  letter-spacing: 1px;
+  color: white;
+}
+.about-us-line{
+  margin-left: 100px;
+  margin-bottom: 20px;
+  width: 70px;
+  border: 2px solid #4b4a7e;
+}
+.about-us-text-1, .about-us-text-2, .about-us-text-3{
+  width: 510px;
+  padding-left: 100px;
+  letter-spacing: 1px;
+  color: white;
+}
+.about-us-text-1, .about-us-text-2{
+  margin-bottom: 15px;
+}
+.about-us-btn{
+  margin-left: 100px;
+  margin-top: 50px;
+  color: white;
+  border: 2px solid white;
+  width: 150px;
+  padding: 8px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.landing-footer{
+  height: 220px;
+  width: 100%;
+  background-color: #4b4a7e;
+  display: flex;
+  column-gap: 250px;
+}
+
+.first-footer-container-1, .first-footer-container-2, .first-footer-container-3{
+  padding-top: 30px;
+}
+.landing-footer-header{
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+.footer-entity{
+  margin-right: 8px;
+ color: white;
+}
+.footer-directions{
+  padding-bottom: 5px;
+  color: white;
+  font-size: 15px;
+}
+.first-footer-container-1{
+  margin-left: auto;
+}
+.first-footer-container-3{
+  margin-right: auto;
+}
+.heading-line-1{
+width: 120px;
+}
+.heading-line-2{
+  width: 100px;
+}
+.heading-line-3{
+  width: 120px;
+  }
+  .heading-line-1, .heading-line-2, .heading-line-3{
+    margin-bottom: 20px;
+}
+
+.last-footer-conatainer{
+  height: 40px;
+  width: 100%;
+  background-color: #323158;
+  display: flex;
+}
+.last-footer-conatainer-1{
+  margin-left: 100px;
+  margin-top: 14px;
+  margin-right: 600px;
+  color: white;
+  font-size: 14px;
+}
+.last-footer-conatainer-2{
+  margin-top: 14px;
+  color: white;
+  font-size: 14px;
 }

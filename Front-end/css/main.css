@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
+  font-family: arial;
 }
 
 body{
@@ -1580,13 +1581,11 @@ div .phone-brand{
 }
 
 .bgr-image{
-  background-color: red;
   height: 700px;
 }
 
 .for-img-display {
   height: 700px;
-  /*background-image: url("/Front-end/icons/couples-1.jpg"), url("/Front-end/icons/couples-2.jpg"), url("/Front-end/icons/couples-3.jpg"),url("/Front-end/icons/couples-4.jpg"), url("/Front-end/icons/couples-1.jpg");*/
   background-size: cover;
   animation: 20s slider infinite;
   float: left;
@@ -1645,6 +1644,9 @@ div .phone-brand{
 .icon-container{
   margin-right: 40px;
 }
+.landing-explore{
+  cursor: pointer;
+}
 
 .landing-btn-container{
   bottom: 15px;
@@ -1664,12 +1666,17 @@ div .phone-brand{
   color: white;
   cursor: pointer;
   background-color: transparent;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.landing-signup-btn:hover, .landing-login-btn:hover{
+  background-color: #4b4a7e;
+  border: 2px solid  #4b4a7e;
 }
 .intro-container{
   margin-top: 140px;
   margin-left: 40px;
   color: white;
-  letter-spacing: 1px;
 }
 h1{
   margin-bottom: 5px;
@@ -1695,6 +1702,12 @@ h1{
   font-weight: bold;
   background-color: transparent;
   cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.video-conatiner:hover{
+  background-color: #4b4a7e;
+  border: 2px solid  #4b4a7e;
 }
 
 .wraps-first-part{
@@ -1760,10 +1773,6 @@ h1{
 }
 .wraps-second-part{
   height: 500px;
-  /*
-  background-color: hsl(0, 0%, 0%, 0.2);
-  background: linear-gradient(to left, rgba(225, 122, 89,1), rgba(225, 122, 89, 0));
-  */
 }
 
 .about-us-image{
@@ -1786,7 +1795,6 @@ h1{
   font-size: 25px;
   padding-top: 50px;
   padding-left: 100px;
-  letter-spacing: 1px;
   color: white;
 }
 .about-us-line{
@@ -1798,7 +1806,6 @@ h1{
 .about-us-text-1, .about-us-text-2, .about-us-text-3{
   width: 510px;
   padding-left: 100px;
-  letter-spacing: 1px;
   color: white;
 }
 .about-us-text-1, .about-us-text-2{
@@ -1813,6 +1820,13 @@ h1{
   padding: 8px;
   text-align: center;
   border-radius: 50px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  -webkit-transition-duration: 0.4s;
+}
+.about-us-btn:hover{
+  background-color: #4b4a7e;
+  border: 2px solid  #4b4a7e;
 }
 
 .landing-footer{
@@ -1839,6 +1853,7 @@ h1{
   padding-bottom: 5px;
   color: white;
   font-size: 15px;
+  cursor: pointer;
 }
 .first-footer-container-1{
   margin-left: auto;
@@ -1876,4 +1891,154 @@ width: 120px;
   margin-top: 14px;
   color: white;
   font-size: 14px;
+}
+
+/* styles for the About Us page*/
+
+.first-about-header{
+  text-align: center;
+  margin-top: 50px;
+  color: #4b4a7e;
+  word-spacing: 3px;
+}
+.first-about-line-1{
+  margin: auto;
+  width: 100px;
+  border: 3px solid #4b4a7e;
+}
+
+.wrap-des-about-us-1{
+  border: 3px solid #4b4a7e;
+  padding: 20px;
+  width: 70%;
+  margin: 50px auto;
+  word-spacing: 2px;
+}
+
+.second-about-header{
+  text-align: center;
+  color: #4b4a7e;
+}
+.first-about-line-2{
+  margin: auto;
+  width: 400px;
+  border: 3px solid #4b4a7e;
+  margin-bottom: 50px;
+}
+
+.team-member-container-1, .team-member-container-2, .team-member-container-3{
+  display: flex;
+  margin-left: 250px;
+}
+
+.sub-container-1{
+  width: 100px;
+  height: 120px;
+  background-color: aquamarine;
+}
+.sub-container-2{
+  background-color: rgb(125, 138, 149);
+  width: 400px;
+  height: 116px;
+  border-bottom-right-radius: 50px;
+  border-top-right-radius: 50px;
+  background-color: white;
+  outline: none;
+  border-right: 2px solid #4b4a7e;
+  border-top: 2px solid #4b4a7e;
+  border-bottom: 2px solid #4b4a7e;
+}
+
+.figure{
+  margin-top: 30px;
+  text-align: center;
+  font-size: 50px;
+  color: #4b4a7e;
+}
+.team-member-container-1, .team-member-container-2{
+  margin-bottom: 50px;
+}
+.member-name{
+  margin-left: 50px;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.member-skilss{
+  margin-left: 50px;
+}
+.team-member-container-3{
+  margin-bottom: 50px;
+}
+.my-github{
+  position: relative;
+  float: left;
+  top: 30px;
+  height: 60px;
+  width: 60px;
+  left: 720px;
+  cursor: pointer;
+}
+.last-vertical-line{
+  border-left: 5px solid #4b4a7e;
+  height: 30px;
+  display: inline-block;
+  margin-left: 150px;
+  position: relative;
+  top: 6px;
+  margin-right: 10px;
+}
+.tecnology-used{
+  display: inline-block;
+}
+.selection-box{
+  background-color: #323158;
+  width: 10px;
+  height: 15px;
+  
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+.skills-container{
+  margin-bottom: 20px;
+  width: 800px;
+}
+.skills-container{
+  margin-left: 180px;
+}
+.line-text-container{
+  margin-bottom: 30px;
+}
+.access-website{
+  background-color: #323158;
+  width: 200px;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  border-radius: 50px;
+  display: inline-block; 
+  margin-right: 50px;
+  margin-left: 180px;
+  cursor: pointer;
+}
+.back-to-home{
+  background-color: #323158;
+  width: 200px;
+  text-align: center;
+  padding: 12px;
+  color: white;
+  border-radius: 50px; 
+  display: inline-block;
+  cursor: pointer;
+}
+.access-pages-container{
+  margin-top: 20px;
+  padding-bottom: 50px;
+  padding-top: 80px;
+}
+.adjust-text-2{
+  margin-left: 80px;
+  margin-top: 10px;
 }

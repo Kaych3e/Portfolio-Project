@@ -233,7 +233,7 @@ nav .my-header {
   padding: 0 80px;
   line-height: 40px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
   background-color: white;
 }
 
@@ -466,7 +466,7 @@ nav ul li {
 }
 .price-heart-1{
   display: flex;
-  column-gap: 60px;
+  column-gap: 9px;
   position: relative;
 }
 
@@ -482,7 +482,7 @@ nav ul li {
  border: none;
  border-radius: 3px;
  margin-top: 4px;
- margin-left: 5px;
+ margin-left: -157px;
  cursor: pointer;
  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -816,9 +816,9 @@ div .phone-brand{
   margin-top: 20px;
 }
 .label-1{
-  margin-left: 50px; 
+  margin-left: 82px; 
   line-height: 35px;
-  margin-right: 800px;
+  margin-right: -115px;
 }
 .sort-by, .label-3{
   line-height: 36px;
@@ -971,13 +971,13 @@ div .phone-brand{
 .gadget-name{
   font-size: 14px;
   margin-top: 5px;
-  margin-left: 15px;
+  margin-left: -121px;
   margin-bottom: 0px;
   font-weight: lighter;
 }
 .gadget-price{
   font-size: 14px;
-  margin-left: 15px;
+  margin-left: -111px;
   display: inline-block;
 }
 .heart-icon{

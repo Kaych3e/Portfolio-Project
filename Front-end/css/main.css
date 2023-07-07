@@ -1568,18 +1568,6 @@ div .phone-brand{
 
 /* Styles for landing page */
 
-.slider figure{
-  position: relative;
-  width: 500%;
-  animation: 20s slider infinite;
-}
-
-.slider figure img {
-  float: left;
-  width: 20%;
-  object-fit: contain;
-}
-
 .bgr-image{
   height: 700px;
 }
@@ -1587,7 +1575,7 @@ div .phone-brand{
 .for-img-display {
   height: 700px;
   background-size: cover;
-  animation: 20s slider infinite;
+  animation: 30s slider infinite;
   float: left;
 }
 
@@ -1677,10 +1665,40 @@ div .phone-brand{
   margin-top: 140px;
   margin-left: 40px;
   color: white;
+  overflow: hidden;
 }
-h1{
+.landing-h1-text{
   margin-bottom: 5px;
+  animation-name: moveToleft;
+  animation-duration: 2s;
 }
+
+@keyframes moveToleft{
+  0% {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.intro-text{
+  animation-name: moveToright;
+  animation-duration: 2s;
+}
+
+@keyframes moveToright{
+  0% {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
 .intro-container p {
   width: 50%;
   font-size: 13px;
@@ -1691,6 +1709,8 @@ h1{
   width: 140px;
   margin-bottom: 45px;
   margin-left: 5px;
+  animation-name: moveToleft;
+  animation-duration: 2s;
 }
 .video-conatiner{
   width: 140px;
@@ -1704,7 +1724,21 @@ h1{
   cursor: pointer;
   transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
+  animation-name: animatebtn;
+  animation-duration: 1s;
+  animation-delay: 2.3s;
+  animation-fill-mode: backwards;
 }
+
+@keyframes animatebtn{
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .video-conatiner:hover{
   background-color: #4b4a7e;
   border: 2px solid  #4b4a7e;
@@ -1958,6 +1992,13 @@ width: 120px;
 .team-member-container-1, .team-member-container-2{
   margin-bottom: 50px;
 }
+
+.members-pic{
+  width: 130px;
+  height: 120px;
+  object-fit: cover;
+}
+
 .member-name{
   margin-left: 50px;
   font-size: 20px;
@@ -1976,7 +2017,7 @@ width: 120px;
   top: 30px;
   height: 60px;
   width: 60px;
-  left: 720px;
+  left: 850px;
   cursor: pointer;
 }
 .last-vertical-line{

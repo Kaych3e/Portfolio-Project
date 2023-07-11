@@ -93,11 +93,11 @@ body{
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }
 
-.my-header {
-  padding: 20px 80px;
+.my-gadgethub {
+  margin-left: 80px;
   line-height: 40px;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 35px;
 }
 
 .container-wrap-1 h3, .container-wrap-2 h3 {
@@ -816,10 +816,10 @@ div .phone-brand{
   background-color: white;
   margin-top: 20px;
 }
-.label-1{
+.label-shop{
   margin-left: 82px; 
   line-height: 35px;
-  margin-right: -115px;
+  margin-right: 800px;
 }
 .sort-by, .label-3{
   line-height: 36px;
@@ -955,7 +955,7 @@ div .phone-brand{
 
 .gadget-container{
   background-color: white;
-  height: 255px;
+  height: 275px;
   width: 220px;
   margin-left: 50px;
   border-radius: 7px;
@@ -975,6 +975,7 @@ div .phone-brand{
   margin-left: 19px;
   margin-bottom: 0px;
   font-weight: lighter;
+  width: 110px;
 }
 .gadget-price{
   font-size: 14px;
@@ -1015,7 +1016,7 @@ div .phone-brand{
   display: flex;
   column-gap:15px;
   position: relative;
-  margin-top: 900px;
+  margin-top: 950px;
   margin-left: 650px;
   margin-bottom: 35px;
 }
@@ -1046,6 +1047,22 @@ div .phone-brand{
   background-color: rgb(44, 130, 221);
 }
 
+a:link{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited{
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(44, 130, 221);
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 /* Styles for cart page */
 
 .cart-text{
@@ -1057,7 +1074,7 @@ div .phone-brand{
 .text-entity{
   display: flex;
   column-gap: 25px;
-  margin-top: 50px;
+  margin-top: -41px;
   padding-left: 50px;
 }
 
@@ -1069,18 +1086,21 @@ div .phone-brand{
 .products{
   margin-right: 390px;
   margin-left: auto;
-  color: silver;
+  color: rgb(95, 95, 95);
   font-weight: bold;
+  font-size: 25px;
 }
 .price{
   margin-right: auto;
-  color: silver;
+  color: rgb(95, 95, 95);
   font-weight: bold;
+  font-size: 25px;
 }
 .unit-price, .quantity{
   margin-right: 150px;
-  color: silver;
+  color: rgb(95, 95, 95);
   font-weight: bold;
+  font-size: 25px;
 }
 .number-products{
   font-size: 13px;
@@ -1147,7 +1167,7 @@ div .phone-brand{
   margin-left: 95px;
 }
 .add-remove-container{
-  width: 140px;
+  width: 150px;
   display: flex;
   display: inline-block;
   position: relative;
@@ -1185,10 +1205,13 @@ div .phone-brand{
   display: inline-block;
   background-color: rgba(229, 38, 0, 0.352);
   position: relative;
-  padding: 3px;
+  padding: 0px;
   bottom: 90px;
   margin-left: 30px;
   
+}
+img.delete-icon {
+  height: 25px;
 }
 .main-container-1, .main-container-2{
   margin-bottom: 20px;
@@ -1297,6 +1320,14 @@ div .phone-brand{
   padding-left: 50px;
   margin-bottom: 30px;
 }
+
+.backward-entity:hover{
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: none;
+}
+
 .checkout-text{
   color: rgb(44, 130, 221);
 }
@@ -1481,10 +1512,13 @@ div .phone-brand{
   margin-right: 10px;
 }
 .text-container-1, .text-container-2{
-  width: 180px;  
+  width: 190px;  
 }
 .quantity, .text-5, .price-5{
   color: rgb(44, 130, 221);
+}
+.quantity{
+  font-size: 18px;
 }
 .text-5, .price-5{
   font-size: 25px;
@@ -1568,40 +1602,54 @@ div .phone-brand{
 
 /* Styles for landing page */
 
-.bgr-image{
-  height: 700px;
+#slider{
+  overflow: hidden;
+  height: 690px;
 }
-
-.for-img-display {
-  height: 700px;
-  background-size: cover;
-  animation: 30s slider infinite;
+#slider figure {
+  position: relative;
+  width: 500%;
+  height: 730px;
+  margin: 0px;
+  left: 0px;
+  animation: 20s slider infinite;
+  overflow: hidden;
+}
+#slider figure .anim-images{
   float: left;
+  width: 20%;
 }
-
 @keyframes slider{
   0%{
-    background-image: url("/Front-end/icons/couples-1.jpg");
+    left: 0;
+  }
+  20%{
     left: 0;
   }
   25%{
-    background-image: url("/Front-end/icons/couples-2.jpg");
     left: -100%;
   }
-  
+  45%{
+    left: -100%;
+  }
   50%{
-    background-image: url("/Front-end/icons/couples-3.jpg");
+    left: -200%;
+  }
+  70%{
     left: -200%;
   }
   75%{
-    background-image: url("/Front-end/icons/couples-4.jpg");
+    left: -300%;
+  }
+  95%{
     left: -300%;
   }
   100%{
-    background-image: url("/Front-end/icons/couples-1.jpg");
     left: -400%;
   }
 }
+
+
 
 .landing-nav-container{
   display: flex;
@@ -1609,6 +1657,8 @@ div .phone-brand{
   padding-top: 20px;
   height: 40px;
   background-color: hsl(0, 0%, 0%, 0.2);
+  position: relative;
+  bottom: 730px;
 }
 .logo{
   margin-right: 440px;
@@ -1618,12 +1668,13 @@ div .phone-brand{
   bottom: 4px;
   color: white;  
 }
-.home-text, .contact-us-text, .about-us-text{
+.home-text-landing, .contact-us-text, .about-us-text{
   font-size: 18px;
-  margin-right: 35px;
   color: white;
   font-weight: normal;
   cursor: pointer;
+  margin-right: 35px;
+  position: relative;
 }
 .landing-page-icon{
   height: 20px;
@@ -1666,6 +1717,8 @@ div .phone-brand{
   margin-left: 40px;
   color: white;
   overflow: hidden;
+  position: relative;
+  bottom: 800px;
 }
 .landing-h1-text{
   margin-bottom: 5px;
@@ -1703,6 +1756,7 @@ div .phone-brand{
   width: 50%;
   font-size: 13px;
   margin-bottom: 50px;
+  position: relative;
 }
 .vertical-line-1{
   border: 1px solid #4b4a7e;
@@ -1711,6 +1765,7 @@ div .phone-brand{
   margin-left: 5px;
   animation-name: moveToleft;
   animation-duration: 2s;
+  position: relative;
 }
 .video-conatiner{
   width: 140px;
@@ -1747,6 +1802,7 @@ div .phone-brand{
 .wraps-first-part{
   background-color: white;
   padding-bottom: 50px;
+  position: relative;
 }
 
 .how-it-works-container{
@@ -1755,6 +1811,7 @@ div .phone-brand{
   text-align: center;
   word-spacing: 2px;
   margin-bottom: 100px; 
+
 }
 .how-it-works-header{
   margin-bottom: 1px;
@@ -1807,6 +1864,8 @@ div .phone-brand{
 }
 .wraps-second-part{
   height: 500px;
+  position: relative;
+  
 }
 
 .about-us-image{
@@ -1869,6 +1928,7 @@ div .phone-brand{
   background-color: #4b4a7e;
   display: flex;
   column-gap: 250px;
+  position: relative;
 }
 
 .first-footer-container-1, .first-footer-container-2, .first-footer-container-3{

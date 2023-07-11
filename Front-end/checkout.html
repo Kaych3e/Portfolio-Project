@@ -10,23 +10,23 @@
 <body>
   
   <nav>
-    <label class="my-header">GadgetHub</label>
+    <label onclick="document.location='Landing-page.html'" class="my-header">GadgetHub</label>
     <div class="nav-icons">
       <img src="icons/search.png" class="logo-1">
-      <img src="icons/shopping-cart.png" class="logo-2">
+      <a href="cart.html"><img src="icons/shopping-cart.png" class="logo-2"></a>
       <img src="icons/user.png" class="logo-3">
     </div>
     <ul>
-      <a href="Landing.html"><li class="l-1">Home</li></a>
-      <li>Shop</li>
+      <a href="Home.html"><li class="l-1">Home</li></a>
+      <a href="shop.html"><li>Shop</li></a>
       <li>Blog</li>
-      <li>About Us</li>
+      <a href="About-page.html"><li>About Us</li></a>
       <li>Contact Us</li>
     </ul>
   </nav>
   <div class="text-entity">
     <div class="checkout-entity">
-     <p>&larr;</p>
+     <a href="cart.html"><p class="backward-entity">&larr;</p></a>
    </div>
       <p><label class="home-text">Home &nbsp;</label> / &nbsp;<label class="cart-text"> Cart &nbsp;</label> /<label class="checkout-text"> &nbsp;Checkout</label></p>
    </div>
@@ -216,7 +216,7 @@
                <img src="icons/android-logo.png" class="social-media"><br>
               </div>
             </div> 
-            <h4 class="heading-4">CONTACT US</h4>
+            <h4 class="heading-4" id="heading-4">CONTACT US</h4>
             <div class="social-media-container"> 
               <div class="social-media-1">
                <img src="icons/facebook.png" class="social-media">

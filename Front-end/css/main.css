@@ -467,7 +467,7 @@ nav ul li {
 }
 .price-heart-1{
   display: flex;
-  column-gap: 9px;
+  column-gap: 61px;
   position: relative;
 }
 
@@ -972,14 +972,14 @@ div .phone-brand{
 .gadget-name{
   font-size: 14px;
   margin-top: 5px;
-  margin-left: 19px;
+  margin-left: -139px;
   margin-bottom: 0px;
   font-weight: lighter;
   width: 110px;
 }
 .gadget-price{
   font-size: 14px;
-  margin-left: 17px;
+  margin-left: -159px;
   display: inline-block;
 }
 .heart-icon{
@@ -1650,7 +1650,6 @@ a:hover{
 }
 
 
-
 .landing-nav-container{
   display: flex;
   width: 100%;
@@ -1839,6 +1838,7 @@ a:hover{
   width: 350px;
   height: 300px;
   border: 1px solid rgb(144, 142, 142);
+  background-color: #e8e0f1;
   text-align: center;
 }
 .first-box{

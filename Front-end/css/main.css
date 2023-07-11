@@ -1581,24 +1581,24 @@ div .phone-brand{
 
 @keyframes slider{
   0%{
-    background-image: url("/Front-end/icons/couples-1.jpg");
+    background-image: url("/icons/couples-1.jpg");
     left: 0;
   }
   25%{
-    background-image: url("/Front-end/icons/couples-2.jpg");
+    background-image: url("/icons/couples-2.jpg");
     left: -100%;
   }
   
   50%{
-    background-image: url("/Front-end/icons/couples-3.jpg");
+    background-image: url("/icons/couples-3.jpg");
     left: -200%;
   }
   75%{
-    background-image: url("/Front-end/icons/couples-4.jpg");
+    background-image: url("/icons/couples-4.jpg");
     left: -300%;
   }
   100%{
-    background-image: url("/Front-end/icons/couples-1.jpg");
+    background-image: url("/icons/couples-1.jpg");
     left: -400%;
   }
 }

@@ -1084,7 +1084,7 @@ a:hover{
   margin-bottom: 15px;
 }
 .products{
-  margin-right: 390px;
+  margin-right: 265px;
   margin-left: auto;
   color: rgb(95, 95, 95);
   font-weight: bold;
@@ -1097,7 +1097,7 @@ a:hover{
   font-size: 25px;
 }
 .unit-price, .quantity{
-  margin-right: 150px;
+  margin-right: 155px;
   color: rgb(95, 95, 95);
   font-weight: bold;
   font-size: 25px;
@@ -1164,7 +1164,7 @@ a:hover{
   display: inline-block;
   position: relative;
   bottom: 95px;
-  margin-left: 95px;
+  margin-left: 128px;
 }
 .add-remove-container{
   width: 150px;
@@ -1173,7 +1173,7 @@ a:hover{
   position: relative;
   bottom: 87px;
   flex-wrap: wrap;
-  margin-left: 23px;
+  margin-left: 33px;
 }
 .price-tag-1{
   display: inline-block;

@@ -1164,7 +1164,7 @@ a:hover{
   display: inline-block;
   position: relative;
   bottom: 95px;
-  margin-left: 128px;
+  margin-left: 104px;
 }
 .add-remove-container{
   width: 150px;
@@ -1223,7 +1223,7 @@ img.delete-icon {
   background-color: white;
   height: 200px;
   width: 230px;
-  margin-left: 850px;
+  margin-left: 1024px;
   margin-bottom: 50px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }

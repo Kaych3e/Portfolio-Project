@@ -368,6 +368,7 @@ nav ul li {
   margin-top: 30px;
   border-radius: 7px;
   margin-bottom: 30px; 
+  box-shadow: rgb(204, 219, 232) 1px 1px 4px 0px, rgb(255, 255, 255) -1px -1px 4px 1px;
 }
 
 .gadget-container-1, .Category-product-1, .Category-product-5, .recommendation-1, .apple-product-1, .service-1, .deal-type{
@@ -386,15 +387,15 @@ nav ul li {
   border-top-right-radius: 7px;
 }
 .product-name{
-  margin-left: 13px;
+  margin-left: 10px;
   font-weight: bold;
   font-size: 15px;
 }
 .product-price{
-  margin-left: 13px;
+  margin-left: 10px;
   margin-top: 5px;
   color: rgb(44, 130, 221);
-  font-size: 13px;
+  font-size: 14px;
 }
 
 .Category-products{
@@ -442,6 +443,7 @@ nav ul li {
   margin-top: 30px;
   margin-bottom: 30px;
   border-radius: 7px;
+  box-shadow: rgb(204, 219, 232) 1px 1px 4px 0px, rgb(255, 255, 255) -1px -1px 4px 1px;
 }
 
 .best-deal-gadget {
@@ -453,21 +455,23 @@ nav ul li {
   border-top-right-radius: 7px;
 }
 
-.gadget-name {
+.gadget-name-1 {
   font-size: 15px;
   font-weight: bold;
-  margin-left: 13px;
+  margin-left: -159px;
 }
 
-.gadget-price{
+.gadget-price-1{
   font-size: 13px;
   color: rgb(44, 130, 221);
-  margin-left: 13px;
+  margin-left: 53px;
   margin-top: 5px;
+  margin-right: 60px;
 }
 .price-heart-1{
   display: flex;
-  column-gap: 61px;
+  position: relative;
+  right: 211px;
   position: relative;
 }
 
@@ -483,7 +487,7 @@ nav ul li {
  border: none;
  border-radius: 3px;
  margin-top: 4px;
- margin-left: -157px;
+ margin-left: -159px;
  cursor: pointer;
  -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
@@ -500,6 +504,7 @@ nav ul li {
   height: 245px;
   margin-top: 30px;
   border-radius: 7px;
+  box-shadow: rgb(204, 219, 232) 1px 1px 4px 0px, rgb(255, 255, 255) -1px -1px 4px 1px;
 }
 
 .apple {
@@ -969,18 +974,21 @@ div .phone-brand{
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
 }
-.gadget-name{
-  font-size: 14px;
+.gadget-name-2{
+  font-size: 15px;
   margin-top: 5px;
-  margin-left: -139px;
+  margin-left: 12px;
   margin-bottom: 0px;
   font-weight: lighter;
-  width: 110px;
+  width: 150px;
+  font-weight: bold;
 }
-.gadget-price{
+.gadget-price-2{
   font-size: 14px;
-  margin-left: -159px;
+  margin-left: 12px;
   display: inline-block;
+  color: rgb(44, 130, 221);
+  padding-bottom: 5px;
 }
 .heart-icon{
   height: 17px;

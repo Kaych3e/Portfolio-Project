@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <!--header tag, contains the logo-->
+  <header class="my-header">GadgetHub</header>
+
+  <!--div tag which contains both the log in and create account button-->
+<div class="access-account-1">
+  <button type="button" onclick="document.location='Signup.html'" class="sign-button-1">Create Account</button>
+  <button class="log-button-1">Log in</button>
+</div>
+
+
+<!--div tag which contains the form-->
+<div class="container-wrap-1">
+  <h3 class="h3-login-signup">HELLO THERE</h3>
+
+  <p class="log-in">Log in to get started</p>
+
+  <form action="my-email">
+    <div class="form-container">
+      <div class="email-container">
+        <label for="email">Email address</label>
+        <input type="email" class="form-input-1" id="email" required>
+      </div>
+
+      <div class="password-container">
+        <label for="my-password">Password</label>
+        <input type="password" class="form-input-2" id="my-password" min="8" required>
+      </div>
+
+      <div>
+        <p>Password must contain at least 8 characters</p>
+        <button type="submit" class="submit-button-1">Log In</button>
+      </div>
+
+      <!--div tag below contains the social media icons-->
+      <div class="wrap-logo-container-1">
+        <div class="social-logo-1">
+        <a href="https://www.faceboook.com"><img src="icons/facebook.png" class="facebook"></a>
+        </div>
+        <div class="social-logo-3">
+        <a href="https://www.twitter.com"><img src="icons/twitter.png" class="twitter"></a> 
+        </div>
+        <div class="social-logo-4">
+          <link href="https://www.instagram.com"><img src="icons/instagram.png" class="instagram"></a> 
+          </div>
+      </div>
+    </div>
+  </form>
+</div>
+</body>
+</html>

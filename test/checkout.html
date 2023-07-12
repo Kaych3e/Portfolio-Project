@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout Page</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  
+  <nav>
+    <label class="my-header">GadgetHub</label>
+    <div class="nav-icons">
+      <img src="icons/search.png" class="logo-1">
+      <img src="icons/shopping-cart.png" class="logo-2">
+      <img src="icons/user.png" class="logo-3">
+    </div>
+    <ul>
+      <a href="Landing.html"><li class="l-1">Home</li></a>
+      <li>Shop</li>
+      <li>Blog</li>
+      <li>About Us</li>
+      <li>Contact Us</li>
+    </ul>
+  </nav>
+  <div class="text-entity">
+    <div class="checkout-entity">
+     <p>&larr;</p>
+   </div>
+      <p><label class="home-text">Home &nbsp;</label> / &nbsp;<label class="cart-text"> Cart &nbsp;</label> /<label class="checkout-text"> &nbsp;Checkout</label></p>
+   </div>
+   <div class="wrap-container-1">
+   <div class="main-container">
+    <P class="billing-address">Billing Address</P>
+    <form action="#">
+    <div class="for-names">
+      <label for="fname" class="fname">First Name</label>
+      <label for="lname" class="lname">Last Name</label>
+      <div class="input-container">
+        <input type="text" class="input-fname" id="fname" required>
+        <input type="text" class="input-lname" id="fname" required>
+      </div>
+      <div class="other-names-container">
+        <label for="other-names" class="other-names">Other Names</label><br>
+        <input type="text" class="input-othername" id="other-names">
+      </div>
+      <div class="email-container-1">
+        <label for="email" class="email">Email Address</label><br>
+        <input type="email" class="input-email-1" id="email" required>
+      </div>
+      <div class="phone-number-conatiner">
+        <label for="phone-number" class="phone-number">Phone Number</label><br>
+        <input type="text" class="input-number" id="phone-number" required>
+      </div>
+      <div class="country-details">
+        <label for="country" class="country">Country</label>
+        <label for="state" class="state">State</label>
+        <label for="city" class="city">City</label>
+      </div>
+      <div class="country-input-container">
+        <select for="country" class="input-country">
+          <option>Nigeria</option>
+          <option>Cameroon</option>
+          <option>Ghana</option>
+          <option>South Africa</option>
+          <option>Zambia</option>
+          <option>Rwanda</option>
+        </select>
+        <input type="text" class="input-state" id="state" required>
+        <input type="text" class="input-city" id="city" required>
+      </div>
+    </div>
+    <div class="checkout-checkbox-container">
+    <input type="checkbox" id="checkbox" class="checkbox-1"><label class="checkbox-text">Shipping address is billing address.</label><br>
+    <input type="checkbox" id="checkbox" class="checkbox-2"><label class="checkbox-text">Save this informstion for next time.</label>
+    </div>
+    <div class="checkout-radio-container">
+      <p class="text-payment">Payment Method Options</p>
+      <div class="checkout-radio-container-1">
+        <input type="radio" class="radio"><label class="radio-text">Bank Transfer</label>
+      </div>
+      <div class="checkout-radio-container-2">
+        <input type="radio" class="radio"><label class="radio-text">Card Payment</label>
+      </div>
+      <div class="checkout-radio-container-3">
+        <input type="radio" class="radio"><label class="radio-text">Paystack</label>
+      </div>
+      <div class="checkout-radio-container-4">
+        <input type="radio" class="radio"><label class="radio-text">Paypal</label>
+      </div>
+      <div class="checkout-radio-container-5">
+        <input type="radio" class="radio"><label class="radio-text">Payment on delivery</label>
+      </div>
+      <div class="btn-container">
+      <button type="submit" class="proceed-button">Proceed</button>
+     </div>
+    </div>
+      </div>
+    </div>
+    </form>
+    <div class="wrap-container-2">
+    <div class="summary-container">
+      <p class="order-summary">Order Summary</p>
+        <div class="text-container-1">
+          <label class="text-1">Wireless foldable headset 
+          <p class="quantity">X2</p>
+        </div>
+        <div class="price-container-1">
+          <label class="price-1">N10 000</label>
+        </div> 
+        <div class="text-container-2">
+          <label class="text-2">Iphone 13 pro 128GB</label>
+          <p class="quantity">X1</p>
+        </div>
+        <div class="price-container-2">
+          <label class="price-2">N250 000</label>
+        </div>
+        <hr class="chechout-vertical-line">
+        <div class="text-container-3">
+          <label class="text-3">Shipping</label>
+        </div>
+        <div class="price-container-3">
+            <label class="price-3">N 15 000</label>
+        </div>
+        <div class="text-container-4">
+          <label class="text-4">Tax</label>
+        </div>
+        <div class="price-container-4">
+          <label class="price-3">N 5 000</label>
+        </div>
+        <hr class="chechout-vertical-line">
+        <div class="text-container-5">
+          <label class="text-5">Total</label>
+        </div>
+        <div class="price-container-5">
+          <label class="price-5">N275 000</label>
+        </div>
+        <p class="we-accept">We Accept</p>
+
+        <form>
+        <div class="payment-icons-container">
+          <div class="visa-container">
+            <img src="icons/visa (1).png" class="card-icon-1">
+          </div>
+          <div class="card-container">
+            <img src="icons/card.png" class="card-icon">
+          </div>
+          <div class="paypal-container">
+            <img src="icons/paypal (1).png" class="card-icon">
+          </div>
+          <div class="american-container">
+            <img src="icons/american-express (1).png" class="card-icon-4">
+          </div>
+        </div>
+      </div>
+      <div class="shipping-service-container">
+        <p class="shipping-methods">Shipping Method</p>
+        <div class="agency-container">
+        <input type="radio" class="radio-agency"><label class="shipping-text-1">Ups</label><label class="shipping-text2">Typically takes 2-4 business days</label>
+        </div>
+        <div class="agency-container">
+          <input type="radio" class="radio-agency"><label class="shipping-text-2">DHL</label><label class="shipping-text2">Typically takes 2-4 business days</label>
+        </div>
+        <div class="agency-container">
+          <input type="radio" class="radio-agency" checked><label class="shipping-text-3">FedEx</label><label class="shipping-text2">Typically takes 2-4 business days</label>
+        </div>
+        <div class="agency-container">
+          <input type="radio" class="radio-agency"><label class="shipping-text-4">courier</label><label class="shipping-text2">Typically takes 2-4 business days</label>
+        </div>
+      </div>
+    </div>
+    </form>
+
+      <footer>
+        <div class="footer-container">
+          <div class="subscribe-container">
+            <h3 class="heading-1">10% off any product when you subscribe</h3>
+            <input type="email" class="input-email" placeholder="Email"><br>
+            <button type="submit" class="subscribe-button">Subscribe</button>
+            <div class="privacy-terms-container">
+              <p class="bottom-text">
+                Privacy and Cookies
+              </p>
+              <p class="bottom-text">
+                Accessibility
+              </p>
+              <p class="bottom-text">
+                Terms and Conditions
+              </p>
+            </div>
+          </div>
+          <div class="help-info-container">
+            <h4 class="heading-2">HELP AND INFO</h4>
+            <P class="footer-text">
+              Help
+            </P>
+            <p class="footer-text">
+              Track your order
+            </p>
+            <p class="footer-text">
+              Shipping and Refunds
+            </p>
+            <p class="footer-text">
+              10% discount for student
+            </p>
+            <button class="faq-button">FAQS</button>
+          </div>
+          <div class="contact-container">
+            <h4 class="heading-3">MOBILE VERSION</h4>
+            <div class="version-icons"> 
+              <div class="version-icon-1">
+               <img src="icons/apple-black-logo.png" class="social-media">
+              </div>
+              <div class="version-icon-2"> 
+               <img src="icons/android-logo.png" class="social-media"><br>
+              </div>
+            </div> 
+            <h4 class="heading-4">CONTACT US</h4>
+            <div class="social-media-container"> 
+              <div class="social-media-1">
+               <img src="icons/facebook.png" class="social-media">
+              </div>
+              <div class="social-media-2"> 
+               <img src="icons/gmail.png" class="social-media">
+              </div>
+              <div class="social-media-3">
+               <img src="icons/twitter.png" class="social-media">
+              </div>
+              <div class="social-media-3">
+                <img src="icons/instagram.png" class="social-media">
+               </div>
+            </div>
+              <div class="right-reserverd">
+                <p class="bottom-text">
+                  &copy 2023 All Right Reserved.
+                </p>
+            </div>  
+        </div>
+      </footer>
+</body>
+</html>

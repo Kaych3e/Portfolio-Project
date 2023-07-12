@@ -1092,7 +1092,7 @@ a:hover{
   margin-bottom: 15px;
 }
 .products{
-  margin-right: 390px;
+  margin-right: 265px;
   margin-left: auto;
   color: rgb(95, 95, 95);
   font-weight: bold;
@@ -1105,7 +1105,7 @@ a:hover{
   font-size: 25px;
 }
 .unit-price, .quantity{
-  margin-right: 150px;
+  margin-right: 155px;
   color: rgb(95, 95, 95);
   font-weight: bold;
   font-size: 25px;
@@ -1172,7 +1172,7 @@ a:hover{
   display: inline-block;
   position: relative;
   bottom: 95px;
-  margin-left: 95px;
+  margin-left: 104px;
 }
 .add-remove-container{
   width: 150px;
@@ -1181,7 +1181,7 @@ a:hover{
   position: relative;
   bottom: 87px;
   flex-wrap: wrap;
-  margin-left: 23px;
+  margin-left: 33px;
 }
 .price-tag-1{
   display: inline-block;
@@ -1231,7 +1231,7 @@ img.delete-icon {
   background-color: white;
   height: 200px;
   width: 230px;
-  margin-left: 850px;
+  margin-left: 1024px;
   margin-bottom: 50px;
   box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px, rgb(255, 255, 255) -3px -3px 6px 1px;
 }
@@ -1761,7 +1761,7 @@ a:hover{
 
 .intro-container p {
   width: 50%;
-  font-size: 13px;
+  font-size: 17px;
   margin-bottom: 50px;
   position: relative;
 }

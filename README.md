@@ -51,3 +51,4 @@ The deployment strategy for this website would be Staged Deployment. This is als
 
 ## Status
 Project is: _in progress_
+Website Link - https://gadgethub-tech.netlify.app/index.html
